@@ -13,7 +13,6 @@ const serverParams = {
 //Update our config and launch openfin.
 function launchOpenFin() {
     openfinLauncher.launchOpenFin({ configPath })
-    .then(() => process.exit())
     .catch(err => console.log(err));
 }
 
